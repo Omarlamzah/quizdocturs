@@ -1,0 +1,162 @@
+#maincontent{
+
+    color: white;
+    font-size: 21px;
+   
+}
+
+.qustion{
+    
+    text-align: left;
+    margin: 10px 60px;
+    color: #ffee59;
+    font-size: 4vw;
+    font-style: italic;
+}
+
+
+p{
+    margin: 0;
+    margin-left: 10px;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.rdio{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.divquis {
+    display: flex;
+    margin: 25px;
+}
+
+.answersarea{display: none;}
+
+
+
+#finquiz{display: none;}
+
+.sectioncontent{ 
+    background-color: #164a4a;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btnnext,.btn{
+    margin-left: 35%;
+width: 30%;
+padding: 10px;
+color: white;
+background-color: black;
+font-size: 20px;
+border: 0;
+border-radius: 10px;
+margin-bottom: 10px;
+cursor: pointer;
+transition: 1s;
+box-shadow: 0px 0px 24px #7375ff;
+}
+
+.btnnext:hover{background-color: rgb(28, 51, 94);}
+
+.btn{ 
+    background-color: #4141ec;}
+    .btn:hover{ 
+        background-color: #000050;}
+
+
+
+
+        
+
+.loader{
+    width: 100px;
+    height: 100px;
+    margin: 40px auto;
+    border-radius: 2px;
+    perspective: 100px;
+    position: absolute;
+    top: 167px;
+    /* width: 50%; */
+    left: 35%;
+   
+} 
+.loader span{
+    width: 33.33%;
+    height: 33.33%;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    float: left;
+    display: block;
+    animation: flip 2s ease-in-out infinite;
+    z-index: 0;
+}
+.loader .box-1{ 
+    background-color: #943048;
+    animation-delay: 0.1s;
+}
+.loader .box-2{
+    background-color: #d7532d;
+    animation-delay: 0.2s;
+}
+.loader .box-3{
+    background-color: #d2cabb;
+    animation-delay: 0.3s;
+}
+.loader .box-4{
+    background-color: #9faad0;
+    animation-delay: 0.4s;
+}
+.loader .box-5{
+    background-color: #b39a3b;
+    animation-delay: 0.5s;
+}
+.loader .box-6{
+    background-color: #dc2c34;
+    animation-delay: 0.6s;
+}
+.loader .box-7{
+    background-color: #ece5be;
+    animation-delay: 0.7s;
+}
+.loader .box-8{
+    background-color: #d07500;
+    animation-delay: 0.8s;
+}
+.loader .box-9{
+    background-color: #7983a9;
+    animation-delay: 0.9s;
+}
+@keyframes flip{
+    0% { transform: rotateY(0deg); }
+    11% {transform: rotateY(180deg); }
+}
+
+
+
+
+
+
+.button-63{
+   background-image:  linear-gradient(273deg,#AF40FF, #5B42F3 50%,#00DDEB ,color white);
+    transition: 1s;
+    color: white;
+}
+
+.button-63:hover{
+    color: white;
+    padding: 3%;
+    padding-left: 4%;
+    
+    background-image:  linear-gradient(67deg,#AF40FF, #5B42F3 50%,#00DDEB)
+}
+
+
+#contentmain{display: none;}
+
+h3{text-align: center;}
